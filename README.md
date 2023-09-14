@@ -1,4 +1,4 @@
-# open-field-DLCpipeline_MJD
+# open-field-DLC-pipeline-MJD
 This repository contains a DeepLabCut model trained for the open field behaviour test in mouse models of Machado Joseph Disease. 
 
 ## Network configuration
