@@ -33,7 +33,7 @@ If you have open field video recordings filmed from above, you can use the alrea
 
 You can use the outputs of [analyse_videos](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/blob/main/Analise_videos.ipynb), which are h5 files (e.g. 376_fdeDLC_resnet50_OpenFieldJun19shuffle2_150000.h5), to extract measurements from the predicted poses. 
 
-With [DLC_Outpu_Analysis](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/blob/main/DLC_Output_Analysis.ipynb) you are able to calculate the:
+With [DLC_Output_Analysis](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/blob/main/DLC_Output_Analysis.ipynb) you are able to calculate the:
 - Distance Travelled 
 - Mean Velocity
 - Resting Time
