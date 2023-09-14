@@ -1,0 +1,83 @@
+    # Project definitions (do not edit)
+Task: OpenField
+scorer: Laura
+date: Jun19
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: C:\Users\User\Desktop\OpenFieldDLC\OpenField-Laura-2023-06-19
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\User\Desktop\OpenFieldDLC\OpenField-Laura-2023-06-19\videos\381_te.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\User\Desktop\OpenFieldDLC\OpenField-Laura-2023-06-19\videos\382_fef.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\User\Desktop\OpenFieldDLC\OpenField-Laura-2023-06-19\videos\376_td.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\User\Desktop\OpenFieldDLC\OpenField-Laura-2023-06-19\videos\378_td.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\User\Desktop\OpenFieldDLC\OpenField-Laura-2023-06-19\videos\376_fde.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\User\Desktop\OpenFieldDLC\OpenField-Laura-2023-06-19\videos\377_te.mp4:
+    crop: 0, 640, 0, 480
+bodyparts:
+- nose
+- leftear
+- rightear
+- leftside
+- bodycentre
+- rightside
+- lefthip
+- righthip
+- tailbase
+- tailcentre
+- tailtip
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0.01
+stop: 0.99
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- nose
+- leftear
+- rightear
+- leftside
+- bodycentre
+- rightside
+- lefthip
+- righthip
+- tailbase
+- tailcentre
+- tailtip
+skeleton_color: black
+pcutoff: 0.8
+dotsize: 6
+alphavalue: 0.5
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.7
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 2
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 200
+x2: 630
+y1: 0
+y2: 480
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
