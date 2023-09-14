@@ -23,13 +23,14 @@ The body parts labelled are:
 
 If you **already have open field video recordings** filmed from above, you can use the already trained network to analyse them! **Go straight to the step 5!**
 
+Otherwise you can start to:
+
 1. Download the folder [in this repository](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/tree/main/OpenField-Laura-2023-06-19).
 2. Create your own project in DLC by running the first two cells **Project Creation** in [Train_and_Evaluate](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/blob/main/Train_and_Evaluate.ipynb).
 3. Replace in your project the `dlc-models` folder by the downloaded folder of the same name. Do this for the `config.yaml` file too.
 4. Go to the subfolder `dlc-model/iteration-0/OpenFieldJun19-trainset70shuffle2` and rename the folder with your project name and date.
 5. Now you can run the [analyse_videos](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/blob/main/Analise_videos.ipynb)!
 
-## Alread
 
 ## Analyse the DLC data
 
@@ -39,4 +40,7 @@ With [DLC_Output_Analysis](https://github.com/lauraangeja/open-field_DLCpipeline
 - Distance Travelled 
 - Mean Velocity
 - Resting Time
-of the mouse for the duration of the open field experiment. You can also obtain these measurements for specific time periods of the test.
+
+of the mouse for the duration of the open field experiment. You can also obtain these measurements for specific time periods of the test. 
+
+NOTE: [DLC_Output_Analysis](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/blob/main/DLC_Output_Analysis.ipynb) and the auxiliary file ([Aux_functions_output_analysis](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/blob/main/Aux_functions_output_analisys.ipynb)) must be in the same folder.
