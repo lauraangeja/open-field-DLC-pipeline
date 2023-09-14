@@ -21,7 +21,7 @@ The body parts labelled are:
 
 ## Extract Poses from your Videos
 
-If you have open field video recordings filmed from above, you can use the already trained network to analyse them! Go straight to the step 5!
+If you **already have open field video recordings** filmed from above, you can use the already trained network to analyse them! **Go straight to the step 5!**
 
 1. Download the folder [in this repository](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/tree/main/OpenField-Laura-2023-06-19).
 2. Create your own project in DLC by running the first two cells **Project Creation** in [Train_and_Evaluate](https://github.com/lauraangeja/open-field_DLCpipeline_MJD/blob/main/Train_and_Evaluate.ipynb).
